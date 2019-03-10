@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TubeHaus.Functions", "TubeHaus.Functions\TubeHaus.Functions.csproj", "{5BFD5F03-437C-4F8B-A2F2-E5B78F3CFAB6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tfl.Api.Entities", "Tfl.Api\Tfl.Api.Entities.csproj", "{C847CF30-4B17-49CA-BE9D-627AD44AA184}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TubeHaus.External.Tfl", "TubeHaus.External.Tfl\TubeHaus.External.Tfl.csproj", "{6CB0E1D1-7248-448D-8161-A92CE558571F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubeHaus.External.Tfl.Tests", "TubeHaus.External.Tfl.Tests\TubeHaus.External.Tfl.Tests.csproj", "{BD54F458-09D5-4CFF-AD07-A0638E52DA45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{5BFD5F03-437C-4F8B-A2F2-E5B78F3CFAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BFD5F03-437C-4F8B-A2F2-E5B78F3CFAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BFD5F03-437C-4F8B-A2F2-E5B78F3CFAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C847CF30-4B17-49CA-BE9D-627AD44AA184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C847CF30-4B17-49CA-BE9D-627AD44AA184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C847CF30-4B17-49CA-BE9D-627AD44AA184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C847CF30-4B17-49CA-BE9D-627AD44AA184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB0E1D1-7248-448D-8161-A92CE558571F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB0E1D1-7248-448D-8161-A92CE558571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB0E1D1-7248-448D-8161-A92CE558571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB0E1D1-7248-448D-8161-A92CE558571F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD54F458-09D5-4CFF-AD07-A0638E52DA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD54F458-09D5-4CFF-AD07-A0638E52DA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD54F458-09D5-4CFF-AD07-A0638E52DA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD54F458-09D5-4CFF-AD07-A0638E52DA45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
